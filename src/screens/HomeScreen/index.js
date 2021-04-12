@@ -3,7 +3,7 @@ import {Text, StyleSheet} from 'react-native';
 
 const HomeScreen = () => {
   console.log('6');
-  return <Text style={styles.text}>HomeScreen</Text>;
+  return <Text style={styles.text}>Home Screen</Text>;
 };
 
 const styles = StyleSheet.create({
