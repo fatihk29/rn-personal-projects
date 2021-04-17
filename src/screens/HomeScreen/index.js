@@ -2,7 +2,6 @@ import React from 'react';
 import {Text, StyleSheet, View, Button, TouchableOpacity} from 'react-native';
 
 const HomeScreen = ({navigation}) => {
-  console.log(navigation);
   return (
     <View>
       <View style={styles.container}>
