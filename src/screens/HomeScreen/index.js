@@ -1,5 +1,5 @@
 import React from 'react';
-import {Text, StyleSheet, View, Button, TouchableOpacity} from 'react-native';
+import {Text, StyleSheet, View, TouchableOpacity} from 'react-native';
 
 const HomeScreen = ({navigation}) => {
   return (
@@ -18,6 +18,9 @@ const HomeScreen = ({navigation}) => {
       </TouchableOpacity>
       <TouchableOpacity onPress={() => navigation.navigate('Counter')}>
         <Text style={styles.text}>Go to Counter Demo</Text>
+      </TouchableOpacity>
+      <TouchableOpacity onPress={() => navigation.navigate('Colors')}>
+        <Text style={styles.text}>Go to Color Demo</Text>
       </TouchableOpacity>
     </View>
   );
